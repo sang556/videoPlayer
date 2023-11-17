@@ -48,16 +48,16 @@
 #pragma mark - 创建用于播放的View
 -(void)createAVPlayerView{
     LRLVideoPlayerItem *item1 = [[LRLVideoPlayerItem alloc] init];
-    item1.videoUrlStr = @"http://hc.yinyuetai.com/uploads/videos/common/B65B013CF61E82DC9766E8BDEEC8B602.flv?sc=8cafc5714c8a6265";
+    item1.videoUrlStr = @"http://vfx.mtime.cn/Video/2019/02/04/mp4/190204084208765161.mp4";
     
     LRLVideoPlayerItem *item2 = [[LRLVideoPlayerItem alloc] init];
-    item2.videoUrlStr = @"http://baobab.wdjcdn.com/1463028607774b.mp4";
+    item2.videoUrlStr = @"https://static.smartisanos.cn/common/video/t1-ui.mp4";
     
     LRLVideoPlayerItem *item3 = [[LRLVideoPlayerItem alloc] init];
-    item3.videoUrlStr = @"http://hc.yinyuetai.com/uploads/videos/common/331C015823B0F4E886170714CD9062FD.flv?sc=8f526db9deea29c8";
+    item3.videoUrlStr = @"http://vfx.mtime.cn/Video/2019/02/04/mp4/190204084208765161.mp4";
     
     LRLVideoPlayerItem *item4 = [[LRLVideoPlayerItem alloc] init];
-    item4.videoUrlStr = @"http://hc.yinyuetai.com/uploads/videos/common/76840156C5FC70B48E22172396283ABA.flv?sc=fe29e57cf9e45fa3";
+    item4.videoUrlStr = @"http://vfx.mtime.cn/Video/2019/02/04/mp4/190204084208765161.mp4";
     
     //, item2, item3, item4
     self.player = [LRLVideoPlayerView avplayerViewWithPlayItems:@[item1, item2, item3, item4] andInitialHeight:200.0 andSuperView:self.view];

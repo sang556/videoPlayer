@@ -262,6 +262,12 @@
     }
     
     self.pipC = [[AVPictureInPictureController alloc] initWithPlayerLayer:(AVPlayerLayer *)self.avplayerView.layer];
+    // 进入后台自动开启画中画
+//    if (@available(iOS 14.2, *)) {
+//        self.pipC.canStartPictureInPictureAutomaticallyFromInline = YES;
+//    } else {
+//        // Fallback on earlier versions
+//    }
     self.pipC.delegate = self;
 }
 
